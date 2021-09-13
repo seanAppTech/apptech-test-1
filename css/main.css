@@ -11134,6 +11134,12 @@ header, nav {
   padding: 0;
 }
 
+div.upper-banner {
+  position: relative;
+}
+div.upper-banner img {
+  position: relative;
+}
 #logo {
   width: 180px;
   position: relative;
