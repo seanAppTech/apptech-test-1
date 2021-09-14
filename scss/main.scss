@@ -333,3 +333,100 @@ div.blue-box {
         }
     }
 }
+
+#ir-header-and-contact {
+    ul {
+        list-style-type: none;
+        margin: 20px auto 50px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    h4 {
+        font-weight: 700;
+        margin: 0 0 0 45px;
+    }
+
+    div.space-above {
+        margin: 100px 0;
+    }
+
+    div.share-container {
+        margin-top: 30px;
+    }
+
+    div.wrapper {
+        position: relative;
+        max-width: 600px;
+
+        div.circle {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: -30px;
+            left: -30px;
+            background: #0fa3e7;
+            border-radius: 50% 50%;
+        }
+    }
+
+    div.shares-list {
+        margin-bottom: 20px;
+        h5 {
+            font-weight: 700;
+            padding: 0;
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin-top: 0;
+            padding-top: 0;
+            li {
+                font-size: 1.2em;
+                font-weight: 500;
+            }
+        }
+
+        a {
+            font-weight: 600;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+    }
+}
+
+#ir-transfer-agent-info {
+    #transfer-agent {
+        margin-top: 70px;
+        max-width: 400px;
+        text-align: center;
+        a {
+            display: block;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
+
+    #disclaimer {
+        margin-top: 70px;
+        max-width: 900px;
+        h4 {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: 500;
+        }
+    }
+}
+
+#trading-view-widget {
+    margin: 75px auto;
+}
+
