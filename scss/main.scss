@@ -299,3 +299,37 @@ div.blue-box {
         max-width: 400px;
     }
 }
+
+#contact-page-departments {
+    h5 {
+        font-weight: 700;
+        
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+#contact-page-form {
+    h2 {
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    form {
+        max-width: 500px;
+        margin: auto;
+        input, select {
+            background-color: #fff;
+        }
+
+        button {
+            margin-top: 20px;
+        }
+    }
+}

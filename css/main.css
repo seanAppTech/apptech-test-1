@@ -11385,3 +11385,29 @@ div.blue-box {
 #platform-capabilities img, #embedded-payments img, #intellectual-property img {
   max-width: 400px;
 }
+
+#contact-page-departments h5, #contact-page-departments .h5 {
+  font-weight: 700;
+}
+#contact-page-departments ul {
+  list-style-type: none;
+  padding: 0;
+}
+#contact-page-departments ul a {
+  text-decoration: none;
+}
+
+#contact-page-form h2, #contact-page-form .h2 {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+#contact-page-form form {
+  max-width: 500px;
+  margin: auto;
+}
+#contact-page-form form input, #contact-page-form form select {
+  background-color: #fff;
+}
+#contact-page-form form button {
+  margin-top: 20px;
+}
