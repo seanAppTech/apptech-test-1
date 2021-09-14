@@ -11134,12 +11134,6 @@ header, nav {
   padding: 0;
 }
 
-div.upper-banner {
-  position: relative;
-}
-div.upper-banner img {
-  position: relative;
-}
 #logo {
   width: 180px;
   position: relative;
@@ -11386,4 +11380,8 @@ div.blue-box {
 
 #text-payments div.blue-box p {
   font-weight: 700;
+}
+
+#platform-capabilities img, #embedded-payments img, #intellectual-property img {
+  max-width: 400px;
 }
