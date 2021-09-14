@@ -17,6 +17,8 @@ $body-bg: #001B43;
 body {
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 section {
@@ -430,3 +432,41 @@ div.blue-box {
     margin: 75px auto;
 }
 
+footer.main-footer {
+    width: 100%;
+    min-height: 400px;
+    margin: 0;
+    background: #333;
+
+    img {
+        margin: 25px auto 75px;
+    }
+
+    h4 {
+        font-size: 1em;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+
+        li a {
+            text-decoration: none;
+            margin-top: 10px;
+            
+        }
+    }
+
+    #trademark {
+        max-width: 500px;
+        margin: 0 auto;
+        p {
+            font-size: 0.7em;
+            opacity: 0.8;
+            text-align: center;
+        }
+    }
+}

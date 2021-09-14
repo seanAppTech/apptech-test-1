@@ -11121,6 +11121,8 @@ textarea.form-control-lg {
 body {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 section {
@@ -11491,4 +11493,37 @@ div.blue-box {
 
 #trading-view-widget {
   margin: 75px auto;
+}
+
+footer.main-footer {
+  width: 100%;
+  min-height: 400px;
+  margin: 0;
+  background: #333;
+}
+footer.main-footer img {
+  margin: 25px auto 75px;
+}
+footer.main-footer h4, footer.main-footer .h4 {
+  font-size: 1em;
+  font-weight: 700;
+  text-align: left;
+}
+footer.main-footer ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+footer.main-footer ul li a {
+  text-decoration: none;
+  margin-top: 10px;
+}
+footer.main-footer #trademark {
+  max-width: 500px;
+  margin: 0 auto;
+}
+footer.main-footer #trademark p {
+  font-size: 0.7em;
+  opacity: 0.8;
+  text-align: center;
 }
